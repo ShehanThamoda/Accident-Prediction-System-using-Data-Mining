@@ -1,0 +1,15 @@
+﻿**********************Accident Prediction System**************************
+
+1)In this system, we trained data using SMOreg algorithm.
+2)We input the Location_Easting_OSGR,Location_Northing_OSGR,Longitude, Latitude,Number_of_Vehicles and Number_of_Casualties. 
+3)Trained by according to the Longitude and Latitude seperately.
+4)Update the class paths in the code according to your computer file paths such as smoreg_values.txt,smoreg_accuracy.txt,chrome driver paths.
+
+*****Run the Main Window*******
+1)First click "Enter the System" button.
+2)After click "Open Data Set" button and select the file which is newtraindata.csv.arff
+3)Then click "Test Data Set" button and select the file which is newtestdata2.csv.arff
+4)After click the "Train the dataset" button. If click this button training data set match with the sample test data set on webpage.
+5)After the process indicate the places on map which are predict to accident in near future.
+6)Then move to the java interface again and finally can see the accurasy, click "Check Accurasy" button on java interface.
+
